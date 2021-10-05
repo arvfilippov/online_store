@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap&subset=cyrillic');
+html, body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+body > p{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: 400;	
+	color:#000200;
+	margin-bottom: 10px;
+}
+
+body > p > i{
+	color: #FF5A0A;
+}
+
+body > p > span{
+	color:#737574;
+}
+.price_top{
+	color:#FF5A0A;
+}
+
+
+header.container-fluid{
+	background: linear-gradient(to bottom, #e3e3e3 0%,#ffffff 100%);
+}
+header .container{
+	height: 100%;
+}/*
+div{
+	box-sizing: border-box;
+}
+.row > div{
+	border: 1px solid #000;
+}
+
+*/
+.my_shop_logo{
+	padding-top: 34px;
+    padding-left: 13px;
+}
+
+.phone > span{
+	font-size: 33px;
+    padding-top: 7px;
+    padding-left: 18px;
+    display: block;
+    color: #FE5909;
+}
+
+.menu > ul{
+	list-style: none;
+	display: flex;
+	padding-top: 18px;
+    padding-left: 20px;;
+    padding-bottom: 14px;
+}
+
+.menu > ul li{
+	margin-right: 26px;
+}
+
+
+.menu a{
+	text-decoration: none;
+	color: #77787A;
+	display: block;
+	font-weight: 500;
+    font-size: 18px;
+}
+
+.work_time > span{
+	display: block;
+	padding-top: 14px;
+    padding-left: 9px;
+    padding-right: 8px;
+    line-height: 23px;
+
+}
+
+.work_time > span span{
+	font-weight: 900;
+	
+}
+.socseti{
+	padding: 0;
+}
+
+.soc_item ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+	margin-top: 11px;
+    margin-left: 14px;
+    margin-bottom: 32px;
+}
+
+.soc_item ul li{
+	margin-right: 7px;
+}
+
+.soc_item ul a{
+	text-decoration: none;
+	color: #FE5909;
+	border: 1px solid #FE5909;
+	border-radius: 50%;
+}
+
+.soc_item ul li:nth-child(1) a{
+	padding: 8px 13px;
+	
+}
+
+.soc_item ul li:nth-child(2) a{
+	padding: 8px 10px;
+}
+
+.soc_item ul li:nth-child(2){
+	margin-right: 9px;
+}
+
+.soc_item ul li:nth-child(3) a{
+	padding: 8px 9px;
+}
+.search{
+	padding: 0 5px;
+
+}
+.search form{
+	position: relative;
+	margin-top: 3px;
+    margin-left: 1px;
+}
+.search .search_place{
+	width: 87.5%;
+	padding: 14px;
+	border: 1px solid #CFCFCF;
+	border-right: none;
+	border-radius: 5px 0 0 5px;
+	font-size: 14px;
+	color: #8C8E8D;
+}
+.search button{
+	position: absolute;
+	width: 12.5%;
+	height: 100%;
+	background: linear-gradient(to top, #e3e3e3 0%,#ffffff 100%);
+	border: 1px solid #CFCFCF;
+	border-radius: 0 5px 5px 0;
+}
+
+.cart{
+	position: relative;
+	padding: 0;
+}
+.cart span{
+	display: block;
+    margin-top: 4px;
+    margin-left: 24px;
+    margin-right: 1px;
+    padding: 25px 0px 21px 22px;
+    background: #FE5909;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px 4px 0 0;
+
+}
+
+.cart a{
+	display: block;
+    position: absolute;
+    text-decoration: none;
+    right: 8px;
+    top: 9px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 8px 17px 7px 18px;
+    background: #363636;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.center{
+	background: linear-gradient(to bottom, #EFEFEF 0%,#ffffff 15%);
+	
+}
+
+nav.catalogue{
+	
+}
+
+.left_bar{
+	padding: 0;
+}
+
+nav.catalogue h3{
+	text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    background: #3B3B3B;
+    margin: 11px 25px 0px 0px;
+    padding: 18px 0px 17px 21px;
+    border-radius: 4px 4px 0 0;
+}
+
+nav.catalogue ul{
+	padding: 0;
+	margin-left: -1px;
+}
+nav.catalogue ul li{
+	list-style: none;
+	margin-right: 24px;
+}
+
+nav.catalogue ul li a{
+	color: #686868;
+    text-decoration: none;
+    display: block;
+    padding: 17px 14px 15px 20px;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #CBCBCB;
+    border-top: 0px;
+    font-weight: 500;
+}
+
+nav.catalogue ul li:first-child a{
+	padding-top: 36px;
+}
+
+nav.catalogue ul li:last-child a{
+	border-radius: 0px 0px 4px 4px;
+}
+
+nav.catalogue ul li:hover a,
+nav.catalogue ul li.active a{
+	color: #FE5909;
+}
+
+section div{
+	
+
+}
+
+section .navigation ul.top_menu{
+	padding:0;
+	list-style: none;
+	display: flex;
+	margin-top: 1px;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+section .navigation ul.top_menu li{
+	padding: 29px 22px 0px 4px;
+}
+
+section .navigation ul.top_menu li a{
+	color: #3C2F27;
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+
+
+section .navigation ul.top_menu li.active a{
+	color: #80707B;
+	position: relative;
+}
+
+section .navigation ul.top_menu li:nth-child(2):before{
+	position: absolute;
+	content: "\23F5";
+    font-size: 12px;
+    left: 75px;
+    top: 31px;
+    color: #FE5909;
+}
+
+section .navigation ul.top_menu li:nth-child(2):after{
+	position: absolute;
+	content: "\23F5";
+    font-size: 12px;
+    left: 188px;
+    top: 31px;
+    color: #FE5909;
+}
+
+section .navigation span{
+	font-size: 14px;
+	padding-left: 7px;
+}
+
+section span.discount{
+	padding: 5px 10px 3px 10px;
+    margin-left: 4px;
+    background: #F27F00;
+    font-size: 16px;
+    color: #fff;
+}
+
+section article.product h3{
+	color: #343138;
+    font-size: 26px;
+    margin-top: 19px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+section article ul{
+
+}
+
+section article ul li.nav-item{
+	margin: 11px 7px 0px -8px;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #F27F00;
+    padding: 3px 10px 2px 10px;
+    font-size: 14px; 
+}
+
+.nav-pills .nav-link.active > span.comment{
+	color: #fff;
+}
+
+
+section article ul li.nav-item a{
+	color: #000;
+    padding: 3px 10px 2px 10px;
+    font-size: 14px;
+    border: 1px solid #E4E4E4;
+    border-radius: 0px;
+}
+.nav-pills .nav-link {
+    border-radius: 0px;
+}
+section article ul li.nav-item:first-child a{
+	border-radius: 3px 0px 0px 3px;
+}
+
+section article ul li.nav-item:last-child a{
+	border-radius: 0px 3px 3px 0px;
+}
+
+section article ul li.nav-item a > span.comment{
+	font-size: 12px;
+    font-weight: 700;
+    color: #F27F00;
+}
+
+.tab-content img:first-child{
+	width: 210px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.tab-content img{
+	width: 150px;
+	margin-left: -20px;
+}
